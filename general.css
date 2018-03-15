@@ -1,0 +1,15 @@
+body{
+	background-color: #000;
+}
+
+.navbar{
+	background-color: none !important;
+	border: none;
+	border-radius: 0 !important;
+	padding-left:80px;
+}
+
+.center{
+	margin: auto;
+	padding-top: 50px;
+}
