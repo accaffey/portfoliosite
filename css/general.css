@@ -59,6 +59,12 @@ h1{
   z-index: -1;
 }
 
+@media(max-width:991px){
+	.aboutcontainer{
+		height: 850px;
+	}
+}
+
 .textcontainer{
   background: #e6e6e6;
   color: #000;
