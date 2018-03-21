@@ -1,0 +1,314 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	color:#000;
+}
+
+h1{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom:15px;
+}
+
+.topcontainer{
+  background: #3c515e;
+  color: #000;
+  position: relative;
+  z-index: 1;
+  padding-right: 10%;
+  margin: 0px 0px 50px 0px;
+  height:768px;	
+}
+
+.topcontainer:after {
+  background: inherit ;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.aboutcontainer{
+  background: #fff;
+  color: #000;
+  position: relative;
+  z-index: 1;
+  padding-right: 10%;
+  padding-top:3%;
+  padding-bottom:20px;
+  height: 420px;
+}
+
+.aboutcontainer:after {
+  background: #e6e6e6 ;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 8%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.textcontainer{
+  background: #e6e6e6;
+  color: #000;
+  position: relative;
+  z-index: 1;
+  padding:3% 10% 3% 10%;
+}
+
+.textcontainer:after {
+  background: inherit  ;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+.skillscontainer{
+	background-color: #3c515e;
+	color:#fff;
+	padding:15px 60px 15px 60px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*nav*/
+.navbar{
+	background-color: #3c515e;
+	border: none;
+	border-radius: 0 !important;
+	text-align: right;
+}
+
+.navbar-default .navbar-nav li a{
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: lighter;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color:white;
+	font-size: 30px;
+}
+
+.navbar-toggle{
+	background-color: #fff;
+	border: none;
+	margin-top: 30px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+}
+
+@media(max-width: 1440px){
+	.navbar-collapse.collapse{
+		display: none !important;
+	}
+	.navbar-collapse.collapse.in{
+		display: block !important;
+	}
+	.navbar-header .collapse, .navbar-toggle{
+		display: block !important;
+	}
+	.navbar-header {
+		float: none;
+	}
+	
+}
+
+@media(max-width: 435px){
+	.navbar-brand>img{
+		height: 75px;
+	}
+}
+
+.logo{
+	padding-top: 100px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.center{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px 0;
+}
+
+@media(max-width: 500px){
+	.logo>img{
+		height: 200px;
+	}
+}
+
+.contentDiv {
+    position: relative;
+}
+
+@keyframes bouncing {
+    0% {bottom: 0;}
+    50% {bottom: 20px;}
+    100% {bottom: 0;}
+}
+
+.arrow {
+    animation: bouncing 1s infinite ease-in-out;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+
+.alignright{
+	text-align: right;
+}
+
+@media(max-width: 992px){
+	.alignright{
+		text-align: center;
+	}
+	.abouttext{
+		margin-top:20px;
+	}
+}
+
+.headshotphoto{
+	height: 275px;
+}
+
+.btn-primary{
+	color:#fff;
+	background-color:#3c515e;
+	border-color: #3c515e;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color:#3c515e;
+	border-color: #3c515e;
+}
+
+.toppadding{
+	margin-top:15px;
+}
+
+.leftpadding{
+	margin-left: 15px;
+	padding: 5px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/*footer*/
+.page-footer{
+	margin-top: 50px;
+	text-align: center;
+	color: #fff;
+
+}
+
+footer a{
+	text-decoration: none;
+}
+
+.whitetext{
+	color: #fff !important;
+}
+
+
+/*Links*/
+
+#whitelink a{
+	color: #fff;
+}
+
+#whitelink a:hover{
+	text-decoration: none;
+	color:#fff;
+}
+
+#whitelink a:visited{
+	color: #fff;
+}
+
+#blacklinkline a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+#blacklinkline a{
+	color:#000;
+	text-decoration: none;
+}
+
+#blacklinkline a:visited{
+	color: #000;
+}
+
+#whitelinkline a{
+	color:#fff;
+}
+
+#whitelinkline a:hover{
+	text-decoration: underline;
+	color:#fff;
+}
+
+#whitelinkline a:visited{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
