@@ -29,7 +29,7 @@ h1{
   left: 0;
   position: absolute;
   right: 0;
-  transform: skewY(-1.5deg);
+  transform: skewY(-2deg);
   transform-origin: 100%;
   z-index: -1;
 }
@@ -54,7 +54,7 @@ h1{
   left: 0;
   position: absolute;
   right: 0;
-  transform: skewY(-1.5deg);
+  transform: skewY(-2deg);
   transform-origin: 100%;
   z-index: -1;
 }
@@ -82,7 +82,7 @@ h1{
   left: 0;
   position: absolute;
   right: 0;
-  transform: skewY(-1.5deg);
+  transform: skewY(-2deg);
   transform-origin: 100%;
   z-index: -1;
 }
